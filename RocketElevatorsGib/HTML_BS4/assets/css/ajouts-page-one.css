@@ -1,0 +1,22 @@
+
+
+.rckt-back-white{
+            background-color: white;
+            
+}
+.rckt-back-grey{
+       background-color: rgb(224, 217, 217) !important;
+       
+}
+
+.rckt-color-dkgrey {
+       color: gray !important;
+}
+.rckt-fs {
+       font-size: 30px !important;
+}
+
+.listeImgSize {
+       height: 175px;
+}
+
