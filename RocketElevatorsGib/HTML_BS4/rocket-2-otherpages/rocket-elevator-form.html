@@ -161,19 +161,65 @@
 					</span>
 
 					<form>
-					  <input type="radio" id="male" name="gender" value="male">
-					  <label for="male">Male</label><br>
-					  <input type="radio" id="female" name="gender" value="female">
-					  <label for="female">Female</label><br>
-					  <input type="radio" id="other" name="gender" value="other">
-					  <label for="other">Other</label>
+					  <h4> Please, select a type of building</h4><br/>
+					  <select name="typebuilding">
+						  <option></option>
+						  <option value="residential">Residential onclick afficher()</option>
+						  <option value="commercial">Commercial</option>
+						  <option value="corporate">Corporate</option>
+						  <option value="hybrid">Hybrid</option>
+                     </select><br/> <br/> <br/>
+					  
 					</form> 
-					<form>
-						<label for="fname">First name:</label><br>
-						<input type="text" id="fname" name="fname"><br>
-						<label for="lname">Last name:</label><br>
-						<input type="text" id="lname" name="lname">
-					</form>
+					<div id = "resident">
+						<h4> Number of apartments</h4>
+						<input type="number" name=""  value=""/>
+						<h4> Number of floors</h4>
+						<input type="number" name=""  value=""/>
+						<h4> Number of basements</h4>
+						<input type="number" name=""  value=""/>												
+					</div> 	
+					<div id = "commer">
+						<h4> Number of distinct businesses</h4>
+						<input type="number" name=""  value=""/>
+						<h4> Number of floors</h4>
+						<input type="number" name=""  value=""/>
+						<h4> Number of basements</h4>
+						<input type="number" name=""  value=""/>
+						<h4> Number of parking space</h4>
+						<input type="number" name=""  value=""/>
+						<h4> Number of elevator cages</h4>
+						<input type="number" name=""  value=""/>												
+					</div> 	
+					<div id = "corpor">
+						<h4> Number of separate tenant companies</h4>
+						<input type="number" name=""  value=""/>
+						<h4> Number of floors</h4>
+						<input type="number" name=""  value=""/>
+						<h4> Number of basements</h4>
+						<input type="number" name=""  value=""/>
+						<h4> Number of parking spaces</h4>
+						<input type="number" name=""  value=""/>
+						<h4> Maximum number of occupants per floor</h4>
+						<input type="number" name=""  value=""/>
+						<h4> Number of hours of activity of the building</h4>
+						<input type="number" name=""  value="" max="24"/>												
+					</div> 
+					<div id = "hybrid">
+						<h4> Number of distinct businesses</h4>
+						<input type="number" name=""  value=""/>
+						<h4> Number of floors</h4>
+						<input type="number" name=""  value=""/>
+						<h4> Number of basements</h4>
+						<input type="number" name=""  value=""/>
+						<h4> Number of parking space</h4>
+						<input type="number" name=""  value=""/>
+						<h4> Maximum number of occupants per floor</h4>
+						<input type="number" name=""  value=""/>
+						<h4> Number of hours of activity of the building</h4>
+						<input type="number" name=""  value="" max="24"/>												
+					</div> 	
+
 					
 					
 				
